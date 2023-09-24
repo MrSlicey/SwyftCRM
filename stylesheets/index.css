@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+.header{
+    background-color: rgb(202, 181, 181);
+    width: 100%;
+    font-family: 'Rowdies', cursive;
+   display: flex;
+    padding: 0;
+    position: sticky;
+    top:0;
+}
+.lefthead, .righthead{
+    display: flex;
+    flex: 1 0 ;
+    border: 5px black soli;
+    width: 50%;
+}
+.headtext{
+    margin-left: 25px;
+    display:flex;
+    flex: 1 0 0;
+    align-items: center;
+    font-size:50px;
+    color:white;
+}
+.headerlogo{
+    width: 20%;
+    margin: 0 0 0 50px;
+    padding: 0;
+}
+.LHR{
+    display: flex;
+    flex: 1 0;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 35px;
+    color: white;
+}
+.body{
+    background: rgb(34, 87, 88);
+    height: 100vh;
+    margin: 0;
+    padding: 2%;
+    display: flex;
+    flex: 1 auto;
+    gap:20px
+}
+.container-l, .container-r{
+    background: grey;
+    border-radius: 25px;
+    width: 50%;
+    height: 80%; 
+}
+.container-r{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    background-color: transparent;
+}
+.RTOP, .LTOP{
+    background-color: rgb(38, 108, 117);
+    height: 50%;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Voltaire', sans-serif;
+}
+.RTOP>p{
+    font-size: 1.5em;
+}
+.break{
+    width: 95%;
+    height: 1%;
+    background: black;
+    margin: auto;
+}
+
