@@ -1,0 +1,1 @@
+Swyft CRM will be a Customer Relationship Managment tool for sales agents.
